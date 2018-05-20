@@ -1,16 +1,7 @@
-# Libraries
-*.lvlibp
-*.llb
+# LabVIEW NXG
+.cache
+Builds
+*.lvcompile
 
-# Shared objects (inc. Windows DLLs)
-*.dll
-*.so
-*.so.*
-*.dylib
-
-# Executables
-*.exe
-
-# Metadata
-*.aliases
-*.lvlps
+# Project specific
+notes
