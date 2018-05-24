@@ -3,8 +3,8 @@
 
     var arModel;
 
-    window.replaceUI = function (textSelector) {
-        var cb = this.getCompletionCallback();
+    window.replaceUI = function (textSelector, jsAPI) {
+        var cb = jsAPI.getCompletionCallback();
     
         var textSelector = document.querySelector(textSelector);
         textSelector.innerHTML = '';
@@ -12,7 +12,7 @@
         arFrame.style = 'width: 100%; height: 100%';
         arFrame.src = 'AugmentedRealityFrame.html';
         arFrame.addEventListener('load', function () {
-            arModel = arFrame.contentDocument.querySelector('a-box');
+            arModel = arFrame.contentDocument.querySelector('a-gltf-model');
             cb();
         });
         textSelector.appendChild(arFrame);

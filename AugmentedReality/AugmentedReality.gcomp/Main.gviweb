@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="2670EB68E2BF6A1F22462AA8093FD32E" Timestamp="1D3EFEAEE6EF520" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="978B19AF2CF4D1825EF12F75C1776571" Timestamp="1D3F32B6C2DFB9B" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
-		<ParsableNamespace AssemblyFileVersion="6.1.0.2535" FeatureSetName="LabVIEW Controls" Name="http://www.ni.com/Controls.LabVIEW.Design" OldestCompatibleVersion="6.1.0.2" Version="6.1.0.2" />
-		<ParsableNamespace AssemblyFileVersion="6.1.0.2535" FeatureSetName="LabVIEW Virtual Instrument" Name="http://www.ni.com/LabVIEW.VI" OldestCompatibleVersion="6.1.0.2" Version="6.1.0.2" />
-		<ParsableNamespace AssemblyFileVersion="6.1.0.2535" FeatureSetName="Common language components" Name="http://www.ni.com/MocCommon" OldestCompatibleVersion="6.1.0.1" Version="6.1.0.1" />
-		<ParsableNamespace AssemblyFileVersion="6.1.0.2536" FeatureSetName="Web Module: WebVI" Name="http://www.ni.com/NationalInstruments.LabVIEW.HtmlVI" OldestCompatibleVersion="6.1.0.0" Version="6.1.0.0" />
-		<ParsableNamespace AssemblyFileVersion="6.1.0.2535" FeatureSetName="Editor" Name="http://www.ni.com/PanelCommon" OldestCompatibleVersion="6.1.0.0" Version="6.1.0.0" />
-		<ParsableNamespace AssemblyFileVersion="6.1.0.2535" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="6.1.0.6" Version="6.1.0.6" />
-		<ApplicationVersionInfo Build="6.1.0.2535" Name="LabVIEW NXG" Version="3.0.0" />
+		<ParsableNamespace AssemblyFileVersion="6.1.0.2678" FeatureSetName="LabVIEW Controls" Name="http://www.ni.com/Controls.LabVIEW.Design" OldestCompatibleVersion="6.1.0.3" Version="6.1.0.3" />
+		<ParsableNamespace AssemblyFileVersion="6.1.0.2680" FeatureSetName="LabVIEW Virtual Instrument" Name="http://www.ni.com/LabVIEW.VI" OldestCompatibleVersion="6.1.0.2" Version="6.1.0.2" />
+		<ParsableNamespace AssemblyFileVersion="6.1.0.2678" FeatureSetName="Common language components" Name="http://www.ni.com/MocCommon" OldestCompatibleVersion="6.1.0.1" Version="6.1.0.1" />
+		<ParsableNamespace AssemblyFileVersion="6.1.0.2680" FeatureSetName="Web Module: WebVI" Name="http://www.ni.com/NationalInstruments.LabVIEW.HtmlVI" OldestCompatibleVersion="6.1.0.0" Version="6.1.0.0" />
+		<ParsableNamespace AssemblyFileVersion="6.1.0.2678" FeatureSetName="Editor" Name="http://www.ni.com/PanelCommon" OldestCompatibleVersion="6.1.0.0" Version="6.1.0.0" />
+		<ParsableNamespace AssemblyFileVersion="6.1.0.2681" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="6.1.0.7" Version="6.1.0.7" />
+		<ApplicationVersionInfo Build="6.1.0.2680" Name="LabVIEW NXG" Version="3.0.0" />
 	</SourceModelFeatureSet>
 	<VirtualInstrument Id="1" OverridingModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.HTMLVirtualInstrument" xmlns="http://www.ni.com/LabVIEW.VI">
 		<Icon Id="2" ListViewIconCrop="0 0 40 40" xmlns="http://www.ni.com/PlatformFramework">
@@ -47,6 +47,18 @@
 			</DataAccessor>
 			<NodeLabel AttachedTo="54" Bounds="45 0 30 15" Id="57" xmlns="http://www.ni.com/PlatformFramework">
 				<p.Text>URL Image</p.Text>
+			</NodeLabel>
+			<DataAccessor Bounds="0 0 40 15" DataItem="533" Id="534" Label="537">
+				<Terminal DataType="String" Direction="Output" Hotspot="40 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+			</DataAccessor>
+			<NodeLabel AttachedTo="534" Bounds="-35 0 30 15" Id="537" xmlns="http://www.ni.com/PlatformFramework">
+				<p.Text>Hyperlink Control</p.Text>
+			</NodeLabel>
+			<DataAccessor Bounds="0 0 40 15" DataItem="539" Id="540" Label="543">
+				<Terminal DataType="String" Direction="Output" Hotspot="40 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+			</DataAccessor>
+			<NodeLabel AttachedTo="540" Bounds="-35 0 30 15" Id="543" xmlns="http://www.ni.com/PlatformFramework">
+				<p.Text>Hyperlink Control_2</p.Text>
 			</NodeLabel>
 		</DiagramUnplacedItems>
 		<FrontPanelUnplacedItems Id="11" Left="[float]0" MinHeight="[float]0" MinWidth="[float]0" PanelSizeMode="Fixed" Top="[float]0" />
@@ -194,6 +206,16 @@
 						<HtmlLabel Height="[float]16" Id="502" LabelAlignment="[PartAlignment]BottomCenter" LabelOwner="[UIModel]501" Left="[float]161" Text="[string]Height Offset of Box" Top="[float]416" Width="[float]115" />
 					</HtmlLayoutPanel>
 				</HtmlTabItem>
+				<HtmlTabItem Header="[string]Attribution" Id="530" Left="[float]0" Top="[float]0">
+					<HtmlLayoutPanel Height="[float]441" Id="531" Left="[float]0" MinHeight="[float]0" MinWidth="[float]0" Top="[float]31" Width="[float]304">
+						<HtmlText BaseName="[string]Text" Height="[float]32" Id="532" Left="[float]27" MinHeight="[float]11" MinWidth="[float]11" Text="[string]&quot;Medium | Eagle-Balloon&quot; by smeerws&#xD;&#xA;is licensed under CC BY 4.0" TextWrapping="[TextWrapping]Wrap" Top="[float]158" Width="[float]209" />
+						<HtmlHyperlinkControl BaseName="[string]Hyperlink Control" Content="[string]Source" Foreground="[SMColor]#ff73a9d8" Height="[float]15" Id="535" IsUrlSameAsContent="[bool]False" Label="[UIModel]536" Left="[float]187" TabIndex="[int]0" TargetUrl="{DataItemBinding Id=533}" Top="[float]175" Width="[float]88" />
+						<HtmlLabel Height="[float]10" Id="536" LabelOwner="[UIModel]535" Left="[float]187" Text="[string]Hyperlink Control" Top="[float]155" Visible="[bool]False" Width="[float]10" />
+						<HtmlText BaseName="[string]Text" Height="[float]32" Id="538" Left="[float]27" MinHeight="[float]11" MinWidth="[float]11" SizeMode="[TextModelSizeMode]Fixed" Text="[string]&quot;Augmented Reality in 10 Lines of HTML&quot; by Alexandra Etienne" TextWrapping="[TextWrapping]Wrap" Top="[float]78" Width="[float]232" />
+						<HtmlHyperlinkControl BaseName="[string]Hyperlink Control" Content="[string]Source" Foreground="[SMColor]#ff73a9d8" Height="[float]15" Id="541" IsUrlSameAsContent="[bool]False" Label="[UIModel]542" Left="[float]155" TabIndex="[int]1" TargetUrl="{DataItemBinding Id=539}" Top="[float]94" Width="[float]55" />
+						<HtmlLabel Height="[float]10" Id="542" LabelOwner="[UIModel]541" Left="[float]155" Text="[string]Hyperlink Control_2" Top="[float]74" Visible="[bool]False" Width="[float]10" />
+					</HtmlLayoutPanel>
+				</HtmlTabItem>
 			</HtmlTabControl>
 			<HtmlLabel Extras="[Dictionary&lt;string, string&gt;]&quot;text&quot;=&quot;Tab&quot;,&quot;class&quot;=&quot;ni-hidden&quot;" Height="[float]16" Id="51" LabelOwner="[UIModel]46" Left="[float]9" Text="[string]Tab" Top="[float]-13" Visible="[bool]False" Width="[float]25" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
 			<HtmlCluster BaseName="[string]Cluster" BorderThickness="[SMThickness]1,1,1,1" ClusterType="[Type]Error" Height="[float]176" Id="518" Label="[UIModel]529" Left="[float]4" MinHeight="[float]24" MinWidth="[float]24" TabIndex="[int]1" Top="[float]548" Value="{DataItemBinding Id=517}" Width="[float]176" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
@@ -229,6 +251,12 @@
 			<p.TypeDefinitionTargets xmlns="http://www.ni.com/PanelCommon">
 				<TypeDefinitionTarget TargetName="NI::G Core::Error::Error.gtype" />
 			</p.TypeDefinitionTargets>
+		</DataItem>
+		<DataItem AdaptToDiagramType="True" DataType="String" Id="533" Name="Hyperlink Control" xmlns="http://www.ni.com/MocCommon">
+			<p.DefaultValue>https://sketchfab.com/models/031875966a5740f18ac4cffa8b14031d#</p.DefaultValue>
+		</DataItem>
+		<DataItem AdaptToDiagramType="True" DataType="String" Id="539" Name="Hyperlink Control_2" xmlns="http://www.ni.com/MocCommon">
+			<p.DefaultValue>https://medium.com/arjs/augmented-reality-in-10-lines-of-html-4e193ea9fdbf</p.DefaultValue>
 		</DataItem>
 	</VirtualInstrument>
 	<IconTable xmlns="http://www.ni.com/PlatformFramework">

@@ -29,17 +29,17 @@
     });
   };
 
-  window.runStart = function () {
-    var cb = this.getCompletionCallback();
+  window.runStart = function (jsAPI) {
+    var cb = jsAPI.getCompletionCallback();
     start().then(cb, cb);
   };
   
-  window.getData = function () {
-    timeCallback = this.getCompletionCallback();
+  window.getData = function (jsAPI) {
+    timeCallback = jsAPI.getCompletionCallback();
   };
   
-  window.getFFT = function () {
-    fftCallback = this.getCompletionCallback();
+  window.getFFT = function (jsAPI) {
+    fftCallback = jsAPI.getCompletionCallback();
   };
 
 }());
