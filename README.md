@@ -1,5 +1,13 @@
 # jsli-prototype-examples
 
-Web Audio Demo: https://bit.ly/jsliwebaudio
+## Web Audio Demo
+![Web Audio](Screenshots/WebAudio.gif)
 
-Augmented Reality Demo: https://bit.ly/jsliardemo
+https://bit.ly/jsliwebaudio
+
+---
+
+## Augmented Reality Demo
+![AugmentedReality](Screenshots/AugmentedReality.gif)
+
+https://bit.ly/jsliardemo
